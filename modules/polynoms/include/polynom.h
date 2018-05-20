@@ -6,11 +6,12 @@
 #include <string>
 #include <vector>
 #include <map>
+#include "monom.h"
 
 using std::string;
 using std::vector;
 using std::map;
-class Monom;
+//class Monom;
 
 class Polynom {
     using monom_vec = vector<Monom>;
